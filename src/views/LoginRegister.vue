@@ -16,8 +16,8 @@
     <div class="panels-container">
       <div class="panel left-panel">
         <div class="content">
-          <h3>学习是为了有更多的选择，让生活变的更美好！</h3>
-          <p>何以解忧，唯有米修</p>
+          <h3>学习是为了有更多的选择,让生活变的更美好!</h3>
+          <p>何以解忧,唯有米修</p>
           <button @click="signUpMode = !signUpMode" class="btn transparent">
             注册
           </button>
@@ -26,8 +26,8 @@
       </div>
       <div class="panel right-panel">
         <div class="content">
-          <h3>以人为镜，可明得失，以代码为镜，可通逻辑！</h3>
-          <p>学习编程，让你的生活更有趣</p>
+          <h3>以人为镜,可明得失,以代码为镜,可通逻辑!</h3>
+          <p>学习编程,让你的生活更有趣</p>
           <button @click="signUpMode = !signUpMode" class="btn transparent">
             登录
           </button>
@@ -90,7 +90,7 @@ export default {
   top: 50%;
   transform: translate(-50%, -50%);
   left: 75%;
-  width: 44%;
+  width: 45%;
   transition: 1s 0.7s ease-in-out;
   display: grid;
   grid-template-columns: 1fr;

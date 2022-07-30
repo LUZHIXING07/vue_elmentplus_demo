@@ -37,7 +37,7 @@ const handleForgotPassword = () => {
 
 <style scoped>
 .container {
-  width: 50%;
+  width: 800px;
   margin: 200px auto;
 }
 

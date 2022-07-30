@@ -83,13 +83,13 @@ const handleResetPassword = (formEl: FormInstance | undefined) => {
           password: passForm.newPass,
         })
         .then((res: any): void => {
-          console.log("密码修改成功！");
+          console.log("密码修改成功!");
           if (res.data.success) {
             router.push("/");
           }
         });
     } else {
-      console.log("出现错误，请重试");
+      console.log("出现错误,请重试");
       return false;
     }
   });
@@ -98,7 +98,7 @@ const handleResetPassword = (formEl: FormInstance | undefined) => {
 
 <style scoped>
 .container {
-  width: 50%;
+  width: 800px;
   margin: 200px auto;
 }
 
